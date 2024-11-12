@@ -101,6 +101,50 @@
     color: #aaa;
     font-size: 0.9rem;
   }
+
+    /* Centraliza a div no meio da tela */
+    .centered-container {
+      display: flex;                /* Ativa o flexbox */
+      flex-direction: column;       /* Organiza os itens na direção da coluna */
+      justify-content: center;      /* Alinha os itens verticalmente no centro */
+      align-items: center;          /* Alinha os itens horizontalmente no centro */
+      height: 2.5vh;                /* Define a altura da div para a altura total da tela */
+      text-align: center;           /* Alinha o texto dentro da div ao centro */
+    }
+  
+    /* Estilo da div que contém as imagens */
+    .tech-icons {
+      display: flex;               /* Ativa o flexbox dentro da div */
+      justify-content: center;      /* Centraliza as imagens dentro da div */
+      gap: 50px;                    /* Adiciona espaço entre as imagens */
+      margin-bottom: 5px;          /* Adiciona espaçamento abaixo das imagens */
+    }
+  
+      .icons-center {
+      display: flex;                /* Ativa o flexbox */
+      justify-content: center;      /* Alinha os itens verticalmente no centro */
+      align-items: center;          /* Alinha os itens horizontalmente no centro */
+      height: 10vh;                /* Define a altura da div para a altura total da tela */
+      text-align: center;           /* Alinha o texto dentro da div ao centro */
+      }
+
+      .icons-center img {
+        margin: 5px; /* Adiciona um espaçamento entre as imagens */
+      }
+
+      .redeSocial{
+        display: flex;                /* Ativa o flexbox */
+      justify-content: center;      /* Alinha os itens verticalmente no centro */
+      align-items: center;          /* Alinha os itens horizontalmente no centro */
+      height: 10vh;                /* Define a altura da div para a altura total da tela */
+      text-align: center;           /* Alinha o texto dentro da div ao centro */
+      }
+
+      .redeSocial img {
+        margin: 5px; /* Adiciona um espaçamento entre as imagens */
+      }
+    
+
 /* Estilo da seção de contato */
   .contact {
     text-align: center;
