@@ -131,6 +131,12 @@
     margin-top: 2rem;
   }
 
+  /* Remove sublinhado de links em .whatsapp-button */
+.contact .whatsapp-button {
+  text-decoration: none !important;
+}
+
+
   /* Estilo do botão de e-mail */
   .email-button {
     display: inline-block;
