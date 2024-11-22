@@ -1,9 +1,4 @@
-# Meu Portfolio 🧑🏼‍💻
-
-
-![Apresen 1_Port](https://github.com/user-attachments/assets/45ef894c-f511-48e1-b288-9d909561d20a)
-
-
+# Meu Portfolio 
 
 
 ## Descrição 
